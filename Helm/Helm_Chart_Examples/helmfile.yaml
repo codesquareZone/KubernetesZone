@@ -1,0 +1,11 @@
+---
+repositories:
+- name: KubernetesZone 
+  url: https://github.com/codesquareZone/KubernetesZone/commit/483bf1579bf8a4f31d4f6e3f68a49fb285301c31
+
+releases:
+- name: mynewrelease:1.0
+  chart: Helm/Helm_Chart_Examples/helloworld
+  installed: true 
+            
+
