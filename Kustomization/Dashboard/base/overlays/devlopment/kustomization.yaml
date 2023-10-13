@@ -1,0 +1,9 @@
+---
+bases
+
+commonLabels:
+  owner: Ajay kumar
+
+namespace: dev  
+namePrefix: -dev
+nameSuffix: -dev
