@@ -1,0 +1,17 @@
+---
+resources:
+# bases: this bases has been deprecated, instead of should use resources. 
+- ../../base
+
+namespace: prod
+commonLabels:
+  owner: ajaykumar
+labels:
+- pairs:
+    env: prod
+    version: 1.0.0
+namePrefix: prod-
+nameSuffix: -prod
+
+patches:
+  - path: hpa.yaml
