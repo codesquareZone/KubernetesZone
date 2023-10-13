@@ -15,12 +15,12 @@ spec:
       maxUnavailable: 1
   template:
     metadata:
-      name: dashboard-pod
-      labels:
-        app: dashboard
-        version: 1.0.0
-        containers:
-        - name: dashboard
-          image: shaikkhajaibrahim/dashboardservice:1.0.0
-          ports:
-          - containerPort: 80
+       name: dashboard-pod
+       labels:
+         app: dashboard
+    spec:
+      containers:
+      - name: dashboard
+        image: shaikkhajaibrahim/dashboardservice:1.0.0
+        ports:
+        - containerPort: 80
